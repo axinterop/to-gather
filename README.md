@@ -23,7 +23,7 @@ A simple Django web app for keeping plans and memories with others.
     docker-compose down
     ```
 
-3. Go to https://127.0.0.1:5000 to access the app.
+3. Go to http://127.0.0.1:5000 to access the app.
 
 # Contributing
 
