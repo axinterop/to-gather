@@ -1,0 +1,6 @@
+<h1>Add movie</h1>
+<form action="{% url 'shelf:movie_add' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
